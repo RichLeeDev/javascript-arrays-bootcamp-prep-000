@@ -5,8 +5,21 @@ function addElementToBeginningOfArray(array, element) {
   return arrayNew
 }
 
-
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
   return array
+}
+
+ function addElementToEndOfArray(array, element) {
+  arrayNewTwo = [...array, element]
+  return arrayNewTwo
+}
+ 
+ function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
+
+function accessElementInArray(array, index) {
+  
 }
